@@ -575,25 +575,25 @@ F 3 "" H 10750 4550 50  0001 C CNN
 	1    10750 4550
 	-1   0    0    1   
 $EndComp
-Text Label 6300 2400 0    60   ~ 0
-COL0
 Text Label 7000 2400 0    60   ~ 0
-COL1
+COL0
 Text Label 7700 2400 0    60   ~ 0
-COL2
+COL1
 Text Label 8400 2400 0    60   ~ 0
-COL3
+COL2
 Text Label 9100 2400 0    60   ~ 0
-COL4
+COL3
 Text Label 9800 2400 0    60   ~ 0
+COL4
+Text Label 10500 2400 0    60   ~ 0
 COL5
-Text Label 6200 2500 2    60   ~ 0
+Text Label 6900 2500 2    60   ~ 0
 ROW0
-Text Label 6200 3600 2    60   ~ 0
+Text Label 6900 3600 2    60   ~ 0
 ROW2
-Text Label 6200 3050 2    60   ~ 0
+Text Label 6900 3050 2    60   ~ 0
 ROW1
-Text Label 6200 4150 2    60   ~ 0
+Text Label 6900 4150 2    60   ~ 0
 ROW3
 $Comp
 L Arduino_Pro_Micro U1
@@ -872,55 +872,20 @@ NoConn ~ 1800 1100
 $Comp
 L SW_Push_45deg K40
 U 1 1 5A89A46E
-P 6600 3800
-F 0 "K40" H 6720 3840 50  0000 L CNN
-F 1 "Key_thumb1" H 6750 3950 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6600 3800 50  0001 C CNN
-F 3 "" H 6600 3800 50  0001 C CNN
-	1    6600 3800
+P 6300 4300
+F 0 "K40" H 6420 4340 50  0000 L CNN
+F 1 "Key_thumb" H 6450 4450 50  0000 C CNN
+F 2 "4x6t2:SW_Cherry_MX1A_1.00u_r30_Plate" H 6300 4300 50  0001 C CNN
+F 3 "" H 6300 4300 50  0001 C CNN
+	1    6300 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_Push_45deg K41
-U 1 1 5A89A5D7
-P 6600 4350
-F 0 "K41" H 6720 4390 50  0000 L CNN
-F 1 "Key_thumb2" H 6750 4500 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6600 4350 50  0001 C CNN
-F 3 "" H 6600 4350 50  0001 C CNN
-	1    6600 4350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 900  2300
-NoConn ~ 900  2100
 Text Label 2600 2300 0    60   ~ 0
 LED1
 Text Label 2600 2400 0    60   ~ 0
 LED2
-$Comp
-L D D3
-U 1 1 5A8AF5BB
-P 6550 4000
-F 0 "D3" H 6550 4100 50  0000 C CNN
-F 1 "D40" H 6700 4100 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 4000 50  0001 C CNN
-F 3 "" H 6550 4000 50  0001 C CNN
-	1    6550 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L D D28
-U 1 1 5A8AF714
-P 6550 4550
-F 0 "D28" H 6550 4650 50  0000 C CNN
-F 1 "D41" H 6700 4650 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 4550 50  0001 C CNN
-F 3 "" H 6550 4550 50  0001 C CNN
-	1    6550 4550
-	-1   0    0    1   
-$EndComp
-Text Label 10500 2400 0    60   ~ 0
-COL6
+Text Label 6200 4100 0    60   ~ 0
+Thumb
 Wire Wire Line
 	7400 2900 7400 2800
 Wire Wire Line
@@ -972,7 +937,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2500 9300 2600
 Wire Wire Line
-	6200 2500 10700 2500
+	6900 2500 10700 2500
 Wire Wire Line
 	10000 2500 10000 2600
 Wire Wire Line
@@ -993,7 +958,7 @@ Wire Wire Line
 	7000 4550 7100 4550
 Connection ~ 7000 4000
 Wire Wire Line
-	7100 3450 7000 3450
+	7000 3450 7100 3450
 Connection ~ 7000 3450
 Wire Wire Line
 	7700 4550 7800 4550
@@ -1028,7 +993,7 @@ Connection ~ 10000 2500
 Wire Wire Line
 	10000 4150 10000 4250
 Wire Wire Line
-	6200 4150 10700 4150
+	6900 4150 10700 4150
 Wire Wire Line
 	7200 4250 7200 4150
 Connection ~ 7200 4150
@@ -1038,7 +1003,7 @@ Connection ~ 10000 4150
 Wire Wire Line
 	10700 3600 10700 3700
 Wire Wire Line
-	6200 3600 10700 3600
+	6900 3600 10700 3600
 Wire Wire Line
 	10000 3700 10000 3600
 Connection ~ 10000 3600
@@ -1066,7 +1031,7 @@ Connection ~ 9300 4150
 Wire Wire Line
 	10700 3050 10700 3150
 Wire Wire Line
-	6200 3050 10700 3050
+	6900 3050 10700 3050
 Wire Wire Line
 	7200 3150 7200 3050
 Connection ~ 7200 3050
@@ -1190,9 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 4500 1200 4600
 Wire Wire Line
-	6700 4550 6700 4450
-Wire Wire Line
-	6700 4000 6700 3900
+	6400 4500 6400 4400
 Wire Wire Line
 	8500 4000 8400 4000
 Connection ~ 8400 4000
@@ -1311,22 +1274,85 @@ F 3 "" H 1600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 4150 6500 4250
-Wire Wire Line
 	7000 2400 7000 4550
 Wire Wire Line
 	7700 2400 7700 4550
-Wire Wire Line
-	6400 4550 6300 4550
-Wire Wire Line
-	6300 4550 6300 2400
 Text Label 2600 2600 0    60   ~ 0
-COL6
+Thumb
 Wire Wire Line
-	6400 4000 6300 4000
-Connection ~ 6300 4000
+	6200 4100 6200 4200
+$Comp
+L GND #PWR015
+U 1 1 5A8B9B52
+P 6400 4500
+F 0 "#PWR015" H 6400 4250 50  0001 C CNN
+F 1 "GND" H 6400 4350 50  0000 C CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L JT8P-3.2T-B10K-1-16Y U2
+U 1 1 5A8BCA85
+P 4100 2850
+F 0 "U2" H 4200 2400 60  0000 C CNN
+F 1 "JT8P-3.2T-B10K-1-16Y" H 4300 2500 60  0000 C CNN
+F 2 "4x6t2:JT8P-3.2T-B10K-1-16Y" H 4250 2400 60  0001 C CNN
+F 3 "" H 4250 2400 60  0001 C CNN
+	1    4100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR016
+U 1 1 5A8BD3F8
+P 4800 2500
+F 0 "#PWR016" H 4800 2350 50  0001 C CNN
+F 1 "+5V" H 4800 2640 50  0000 C CNN
+F 2 "" H 4800 2500 50  0001 C CNN
+F 3 "" H 4800 2500 50  0001 C CNN
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6500 3700 6500 3600
-Connection ~ 6500 3600
-Connection ~ 6500 4150
+	4800 2500 4800 3050
+Wire Wire Line
+	4800 3050 4500 3050
+Wire Wire Line
+	4500 2750 4800 2750
+Connection ~ 4800 2750
+$Comp
+L GND #PWR017
+U 1 1 5A8C0180
+P 3600 3150
+F 0 "#PWR017" H 3600 2900 50  0001 C CNN
+F 1 "GND" H 3600 3000 50  0000 C CNN
+F 2 "" H 3600 3150 50  0001 C CNN
+F 3 "" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2750 3600 3150
+Wire Wire Line
+	3600 3050 3700 3050
+Wire Wire Line
+	3600 2750 3700 2750
+Connection ~ 3600 3050
+Text Label 4600 2600 0    60   ~ 0
+X
+Text Label 4600 2900 0    60   ~ 0
+Y
+Wire Wire Line
+	4600 2900 4500 2900
+Wire Wire Line
+	4600 2600 4500 2600
+Text Label 800  2100 2    60   ~ 0
+X
+Text Label 800  2300 2    60   ~ 0
+Y
+Wire Wire Line
+	900  2300 800  2300
+Wire Wire Line
+	900  2100 800  2100
 $EndSCHEMATC
