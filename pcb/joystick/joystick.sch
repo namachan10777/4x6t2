@@ -1,0 +1,255 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:4x6t2
+LIBS:joystick-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JT8P-3.2T-B10K-1-16Y U1
+U 1 1 5A8BC9D2
+P 5150 3300
+F 0 "U1" H 5250 2850 60  0000 C CNN
+F 1 "JT8P-3.2T-B10K-1-16Y" H 5250 2950 60  0000 C CNN
+F 2 "4x6t2:JT8P-3.2T-B10K-1-16Y" H 5300 2850 60  0001 C CNN
+F 3 "" H 5300 2850 60  0001 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x01 SW1
+U 1 1 5A8BCA24
+P 5150 4000
+F 0 "SW1" H 5150 4150 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 3850 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_Straight_KSL0Axx1LFTR" H 5150 4000 50  0001 C CNN
+F 3 "" H 5150 4000 50  0001 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x01 SW2
+U 1 1 5A8BCAA9
+P 5150 4350
+F 0 "SW2" H 5150 4500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 4200 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_Straight_KSL0Axx1LFTR" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J1
+U 1 1 5A8BCB8D
+P 7100 3700
+F 0 "J1" H 7100 4000 50  0000 C CNN
+F 1 "Conn_01x06" H 7100 3300 50  0000 C CNN
+F 2 "Connectors:PINHEAD1-6" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J2
+U 1 1 5A8BCBAA
+P 6350 4600
+F 0 "J2" H 6350 4900 50  0000 C CNN
+F 1 "Conn_01x06" H 6350 4200 50  0000 C CNN
+F 2 "Connectors:PINHEAD1-6" H 6350 4600 50  0001 C CNN
+F 3 "" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 5A8BCE2E
+P 6800 3400
+F 0 "#PWR01" H 6800 3250 50  0001 C CNN
+F 1 "+5V" H 6800 3540 50  0000 C CNN
+F 2 "" H 6800 3400 50  0001 C CNN
+F 3 "" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A8BCED8
+P 6800 4100
+F 0 "#PWR02" H 6800 3850 50  0001 C CNN
+F 1 "GND" H 6800 3950 50  0000 C CNN
+F 2 "" H 6800 4100 50  0001 C CNN
+F 3 "" H 6800 4100 50  0001 C CNN
+	1    6800 4100
+	1    0    0    -1  
+$EndComp
+Text Label 6800 3700 2    60   ~ 0
+x
+Text Label 6800 3600 2    60   ~ 0
+y
+Text Label 6800 3800 2    60   ~ 0
+sw1
+Text Label 6800 3900 2    60   ~ 0
+sw2
+Wire Wire Line
+	6800 4100 6800 4000
+Wire Wire Line
+	6500 4000 6900 4000
+Wire Wire Line
+	6800 3900 6900 3900
+Wire Wire Line
+	6900 3800 6800 3800
+Wire Wire Line
+	6800 3700 6900 3700
+Wire Wire Line
+	6800 3600 6900 3600
+Wire Wire Line
+	6500 3500 6900 3500
+Wire Wire Line
+	6800 3500 6800 3400
+Text Label 5650 3050 0    60   ~ 0
+x
+Text Label 5650 3350 0    60   ~ 0
+y
+Wire Wire Line
+	5650 3350 5550 3350
+Wire Wire Line
+	5650 3050 5550 3050
+$Comp
+L +5V #PWR03
+U 1 1 5A8BD4CE
+P 5800 2950
+F 0 "#PWR03" H 5800 2800 50  0001 C CNN
+F 1 "+5V" H 5800 3090 50  0000 C CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2950 5800 3500
+Wire Wire Line
+	5800 3200 5550 3200
+Wire Wire Line
+	5800 3500 5550 3500
+Connection ~ 5800 3200
+$Comp
+L GND #PWR04
+U 1 1 5A8BD679
+P 4550 3600
+F 0 "#PWR04" H 4550 3350 50  0001 C CNN
+F 1 "GND" H 4550 3450 50  0000 C CNN
+F 2 "" H 4550 3600 50  0001 C CNN
+F 3 "" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3200 4550 3600
+Wire Wire Line
+	4550 3500 4750 3500
+Wire Wire Line
+	4750 3200 4550 3200
+Connection ~ 4550 3500
+$Comp
+L GND #PWR05
+U 1 1 5A8BD80A
+P 4750 4450
+F 0 "#PWR05" H 4750 4200 50  0001 C CNN
+F 1 "GND" H 4750 4300 50  0000 C CNN
+F 2 "" H 4750 4450 50  0001 C CNN
+F 3 "" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4000 4750 4450
+Wire Wire Line
+	4750 4350 4850 4350
+Wire Wire Line
+	4750 4000 4850 4000
+Connection ~ 4750 4350
+Text Label 5550 4000 0    60   ~ 0
+sw1
+Text Label 5550 4350 0    60   ~ 0
+sw2
+Wire Wire Line
+	5550 4350 5450 4350
+Wire Wire Line
+	5550 4000 5450 4000
+NoConn ~ 6150 4900
+NoConn ~ 6150 4800
+NoConn ~ 6150 4700
+NoConn ~ 6150 4600
+NoConn ~ 6150 4500
+NoConn ~ 6150 4400
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 5A8BDF89
+P 6500 3400
+F 0 "#FLG06" H 6500 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 3550 50  0000 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5A8BE0FC
+P 6500 4100
+F 0 "#FLG07" H 6500 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 4250 50  0000 C CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4100 6500 4000
+Connection ~ 6800 4000
+Wire Wire Line
+	6500 3400 6500 3500
+Connection ~ 6800 3500
+$EndSCHEMATC
