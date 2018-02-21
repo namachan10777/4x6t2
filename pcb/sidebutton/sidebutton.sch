@@ -1,0 +1,238 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:4x6t2
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JT8P-3.2T-B10K-1-16Y U1
+U 1 1 5A8D488B
+P 6950 3050
+F 0 "U1" H 7050 2600 60  0000 C CNN
+F 1 "JT8P-3.2T-B10K-1-16Y" H 7050 2700 60  0000 C CNN
+F 2 "4x6t2:JT8P-3.2T-B10K-1-16Y" H 7100 2600 60  0001 C CNN
+F 3 "" H 7100 2600 60  0001 C CNN
+	1    6950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x01 SW1
+U 1 1 5A8D490E
+P 6600 3900
+F 0 "SW1" H 6600 4050 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6600 3750 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_Straight_KSA0Axx1LFTR" H 6600 3900 50  0001 C CNN
+F 3 "" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 5A8D495B
+P 7750 2700
+F 0 "#PWR01" H 7750 2550 50  0001 C CNN
+F 1 "+5V" H 7750 2840 50  0000 C CNN
+F 2 "" H 7750 2700 50  0001 C CNN
+F 3 "" H 7750 2700 50  0001 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7450 2800 0    60   ~ 0
+out1
+Text Label 7450 3100 0    60   ~ 0
+out2
+$Comp
+L GND #PWR02
+U 1 1 5A8D4B58
+P 6450 3350
+F 0 "#PWR02" H 6450 3100 50  0001 C CNN
+F 1 "GND" H 6450 3200 50  0000 C CNN
+F 2 "" H 6450 3350 50  0001 C CNN
+F 3 "" H 6450 3350 50  0001 C CNN
+	1    6450 3350
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3900 0    60   ~ 0
+out1
+$Comp
+L GND #PWR03
+U 1 1 5A8D5048
+P 6200 4000
+F 0 "#PWR03" H 6200 3750 50  0001 C CNN
+F 1 "GND" H 6200 3850 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2700 7750 3250
+Wire Wire Line
+	7750 2950 7350 2950
+Wire Wire Line
+	7750 3250 7350 3250
+Connection ~ 7750 2950
+Wire Wire Line
+	7450 3100 7350 3100
+Wire Wire Line
+	7450 2800 7350 2800
+Wire Wire Line
+	6450 2950 6450 3350
+Wire Wire Line
+	6450 3250 6550 3250
+Wire Wire Line
+	6450 2950 6550 2950
+Connection ~ 6450 3250
+Wire Wire Line
+	6900 3900 7100 3900
+Wire Wire Line
+	6200 4000 6200 3900
+Wire Wire Line
+	6200 3900 6300 3900
+$Comp
+L +5V #PWR04
+U 1 1 5A8D551E
+P 7000 3800
+F 0 "#PWR04" H 7000 3650 50  0001 C CNN
+F 1 "+5V" H 7000 3940 50  0000 C CNN
+F 2 "" H 7000 3800 50  0001 C CNN
+F 3 "" H 7000 3800 50  0001 C CNN
+	1    7000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3800 7000 3900
+Connection ~ 7000 3900
+$Comp
+L Jumper JP1
+U 1 1 5A8D55EB
+P 7400 3900
+F 0 "JP1" H 7400 4050 50  0000 C CNN
+F 1 "Jumper" H 7400 3820 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7400 3900 50  0001 C CNN
+F 3 "" H 7400 3900 50  0001 C CNN
+	1    7400 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3900 7800 3900
+$Comp
+L Conn_01x04 J1
+U 1 1 5A8D5866
+P 9050 3050
+F 0 "J1" H 9050 3250 50  0000 C CNN
+F 1 "Conn_01x04" H 9050 2750 50  0000 C CNN
+F 2 "Connectors:Fan_Pin_Header_Straight_1x04" H 9050 3050 50  0001 C CNN
+F 3 "" H 9050 3050 50  0001 C CNN
+	1    9050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 5A8D588F
+P 8750 2850
+F 0 "#PWR05" H 8750 2700 50  0001 C CNN
+F 1 "+5V" H 8750 2990 50  0000 C CNN
+F 2 "" H 8750 2850 50  0001 C CNN
+F 3 "" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A8D58AB
+P 8750 3350
+F 0 "#PWR06" H 8750 3100 50  0001 C CNN
+F 1 "GND" H 8750 3200 50  0000 C CNN
+F 2 "" H 8750 3350 50  0001 C CNN
+F 3 "" H 8750 3350 50  0001 C CNN
+	1    8750 3350
+	1    0    0    -1  
+$EndComp
+Text Label 8750 3050 2    60   ~ 0
+out1
+Text Label 8750 3150 2    60   ~ 0
+out2
+Wire Wire Line
+	8750 3150 8850 3150
+Wire Wire Line
+	8750 3350 8750 3250
+Wire Wire Line
+	8450 3250 8850 3250
+Wire Wire Line
+	8850 3050 8750 3050
+Wire Wire Line
+	8750 2850 8750 2950
+Wire Wire Line
+	8450 2950 8850 2950
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5A8D5A83
+P 8450 2850
+F 0 "#FLG07" H 8450 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 8450 3000 50  0000 C CNN
+F 2 "" H 8450 2850 50  0001 C CNN
+F 3 "" H 8450 2850 50  0001 C CNN
+	1    8450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5A8D5B4F
+P 8450 3350
+F 0 "#FLG08" H 8450 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 8450 3500 50  0000 C CNN
+F 2 "" H 8450 3350 50  0001 C CNN
+F 3 "" H 8450 3350 50  0001 C CNN
+	1    8450 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 3350 8450 3250
+Connection ~ 8750 3250
+Wire Wire Line
+	8450 2950 8450 2850
+Connection ~ 8750 2950
+$EndSCHEMATC
