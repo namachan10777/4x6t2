@@ -2,8 +2,8 @@
 
   (general
     (links 45)
-    (no_connects 45)
-    (area -8.290143 -5.178 36.230143 56.958)
+    (no_connects 41)
+    (area -9.560143 -5.178 34.960143 72.198)
     (thickness 1.6)
     (drawings 4)
     (tracks 7)
@@ -765,7 +765,7 @@
   )
 
   (module 4x6t2:Wirepad_01x02 (layer F.Cu) (tedit 5A8FD74C) (tstamp 5A8FDAC3)
-    (at 16.51 66.04 90)
+    (at 16.51 63.5 90)
     (path /5A9001D1)
     (fp_text reference THUMB1 (at -2.54 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -822,7 +822,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A900DA4)
-    (at 0 66.04)
+    (at 0 63.5)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -841,7 +841,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A900DAC)
-    (at 25.4 66.04)
+    (at 25.4 63.5)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -859,9 +859,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start -3.81 69.85) (end -3.81 -3.81) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 29.21 69.85) (end -3.81 69.85) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 29.21 -3.81) (end 29.21 69.85) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start -3.81 67.31) (end -3.81 -3.81) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 29.21 67.31) (end -3.81 67.31) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 29.21 -3.81) (end 29.21 67.31) (layer Edge.Cuts) (width 0.1))
   (gr_line (start -3.81 -3.81) (end 29.21 -3.81) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 3.81 5.08) (end 3.81 2.54) (width 0.25) (layer F.Cu) (net 13))
