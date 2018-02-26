@@ -1,8 +1,11 @@
 #!/usr/bin/fish
+# this script support fusionpcb and elecrow
+set vender fusionpcb
 
 set basename $argv[1]
 
 if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton'
+
 	cd $basename
 	cp $basename-B.Cu.gbl      $basename.gbl
 	cp $basename-B.Mask.gbs    $basename.gbs
@@ -11,7 +14,13 @@ if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton'
 	cp $basename-F.Cu.gtl      $basename.gtl
 	cp $basename-F.Mask.gts    $basename.gts
 	cp $basename-F.SilkS.gto   $basename.gto
-	cp $basename.drl           $basename.drl
+	if test $vender = 'fusionpcb'
+		cp $basename.drl $basename.drl
+	else if test $vender = 'elecrow'
+		cp $basename.drl $basename.txt
+	else
+		echo 'wrong vender specification'
+	end
 	set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.drl
 	zip $basename $generated_files
 	rm $generated_files
