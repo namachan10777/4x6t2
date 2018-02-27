@@ -10,18 +10,18 @@ if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton'
 	cp $basename-B.Cu.gbl      $basename.gbl
 	cp $basename-B.Mask.gbs    $basename.gbs
 	cp $basename-B.SilkS.gbo   $basename.gbo
-	cp $basename-Edge.Cuts.gm1 $basename.gm1
 	cp $basename-F.Cu.gtl      $basename.gtl
 	cp $basename-F.Mask.gts    $basename.gts
 	cp $basename-F.SilkS.gto   $basename.gto
+	cp $basename-Edge.Cuts.gm1 $basename.gm1
 	if test $vender = 'fusionpcb'
-		cp $basename.drl $basename.drl
+		set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.drl
 	else if test $vender = 'elecrow'
 		cp $basename.drl $basename.txt
+		set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.txt
 	else
 		echo 'wrong vender specification'
 	end
-	set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.drl
 	zip $basename $generated_files
 	rm $generated_files
 
