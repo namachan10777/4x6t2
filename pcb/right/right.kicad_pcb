@@ -3,7 +3,7 @@
   (general
     (links 44)
     (no_connects 44)
-    (area 28.539857 27.842 66.710143 103.068)
+    (area 29.809857 27.842 66.710143 103.068)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -152,7 +152,7 @@
   )
 
   (module LEDs:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5A953721)
-    (at 35.56 54.61 180)
+    (at 39.37 54.61 180)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5A8D70C8)
@@ -187,7 +187,7 @@
   )
 
   (module LEDs:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5A953734)
-    (at 35.56 59.69 180)
+    (at 39.37 59.69 180)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5A8D723F)
@@ -222,7 +222,7 @@
   )
 
   (module LEDs:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5A953747)
-    (at 35.56 64.77 180)
+    (at 39.37 64.77 180)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5A8BD278)
@@ -477,7 +477,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A9537D8)
-    (at 55.88 78.74 270)
+    (at 58.42 78.74 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5A8EDD05)
@@ -515,7 +515,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A9537EE)
-    (at 52.07 78.74 270)
+    (at 55.88 78.74 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5A8EDDA2)
@@ -553,7 +553,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A953804)
-    (at 59.69 78.74 270)
+    (at 60.96 78.74 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5A8E2475)
@@ -591,7 +591,7 @@
   )
 
   (module Connectors:RJ45_8 (layer F.Cu) (tedit 0) (tstamp 5A95381C)
-    (at 45.72 80.01 270)
+    (at 49.53 80.01 270)
     (tags RJ45)
     (path /5A8CEE3B)
     (fp_text reference RJ45 (at 4.7 11.18 270) (layer F.SilkS)
@@ -659,7 +659,7 @@
   )
 
   (module Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS (layer F.Cu) (tedit 592CADC6) (tstamp 5A95384E)
-    (at 34.29 73.66 90)
+    (at 38.1 73.66 90)
     (descr "tactile switch SPST right angle, PTS645VL31-2 LFS")
     (tags "tactile switch SPST angled PTS645VL31-2 LFS C&K Button")
     (path /5A8DF0D5)
@@ -715,7 +715,7 @@
   )
 
   (module 4x6t2:Wirepad_01x04 (layer F.Cu) (tedit 5A8FD760) (tstamp 5A95385A)
-    (at 39.37 91.44 270)
+    (at 48.26 96.52 270)
     (path /5A8D75E5)
     (fp_text reference SIDE1 (at -2.54 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -757,7 +757,7 @@
   )
 
   (module Mounting_Holes:MountingHole_6.4mm_M6 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A953F14)
-    (at 38.1 44.45)
+    (at 41.91 44.45)
     (descr "Mounting Hole 6.4mm, no annular, M6")
     (tags "mounting hole 6.4mm no annular m6")
     (attr virtual)
@@ -795,7 +795,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9542C0)
-    (at 35.56 33.02)
+    (at 39.37 33.02)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -814,7 +814,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9542D0)
-    (at 35.56 97.79)
+    (at 39.37 97.79)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -861,9 +861,9 @@
       (net 6 /COL5))
   )
 
-  (gr_line (start 31.75 101.6) (end 63.5 101.6) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 35.56 101.6) (end 63.5 101.6) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 63.5 29.21) (end 63.5 101.6) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 31.75 29.21) (end 31.75 101.6) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 63.5 29.21) (end 31.75 29.21) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 35.56 29.21) (end 35.56 101.6) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 63.5 29.21) (end 35.56 29.21) (layer Edge.Cuts) (width 0.1))
 
 )
