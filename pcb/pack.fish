@@ -4,21 +4,41 @@ set vender fusionpcb
 
 set basename $argv[1]
 
-if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton'
+if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton' -o $basename = 'breakout'
 
 	cd $basename
-	cp $basename-B.Cu.gbl      $basename.gbl
-	cp $basename-B.Mask.gbs    $basename.gbs
-	cp $basename-B.SilkS.gbo   $basename.gbo
-	cp $basename-F.Cu.gtl      $basename.gtl
-	cp $basename-F.Mask.gts    $basename.gts
-	cp $basename-F.SilkS.gto   $basename.gto
-	cp $basename-Edge.Cuts.gm1 $basename.gm1
+	if test $basename = 'breakout'
+		set boardname 'panelized'
+	else
+		set boardname $basename
+	end
+	cp $boardname-B.Cu.gbl      $basename.gbl
+	cp $boardname-B.Mask.gbs    $basename.gbs
+	cp $boardname-B.SilkS.gbo   $basename.gbo
+	cp $boardname-F.Cu.gtl      $basename.gtl
+	cp $boardname-F.Mask.gts    $basename.gts
+	cp $boardname-F.SilkS.gto   $basename.gto
+	cp $boardname-Edge.Cuts.gm1 $basename.gm1
 	if test $vender = 'fusionpcb'
-		set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.drl
+		set generated_files \
+			$basename.gbl \
+			$basename.gbs \
+			$basename.gbo \
+			$basename.gm1 \
+			$basename.gtl \
+			$basename.gts \
+			$basename.gto
 	else if test $vender = 'elecrow'
-		cp $basename.drl $basename.txt
-		set generated_files $basename.gbl $basename.gbs $basename.gbo $basename.gm1 $basename.gtl $basename.gts $basename.gto $basename.txt
+		cp $basename.drl $boardname.txt
+		set generated_files \
+			$basename.gbl \
+			$basename.gbs \
+			$basename.gbo \
+			$basename.gm1 \
+			$basename.gtl \
+			$basename.gts \
+			$basename.gto \
+			$basename.txt
 	else
 		echo 'wrong vender specification'
 	end
