@@ -30,4 +30,5 @@ _autosave-*
 *.gtl
 *.gts
 *.gto
+*.drl
 *.zip
