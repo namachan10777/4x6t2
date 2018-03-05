@@ -4,6 +4,9 @@ set vender fusionpcb
 
 set basename $argv[1]
 
+echo "vender:" $vender
+echo "board :" $basename
+
 if test $basename = 'keyboard' -o $basename = 'sidebutton'
 
 	cd $basename
