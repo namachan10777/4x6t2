@@ -4,14 +4,9 @@ set vender fusionpcb
 
 set basename $argv[1]
 
-if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton' -o $basename = 'breakout'
+if test $basename = 'keyboard' -o $basename = 'sidebutton'
 
 	cd $basename
-	if test $basename = 'breakout'
-		set boardname 'panelized'
-	else
-		set boardname $basename
-	end
 	cp $boardname-B.Cu.gbl      $basename.gbl
 	cp $boardname-B.Mask.gbs    $basename.gbs
 	cp $boardname-B.SilkS.gbo   $basename.gbo
@@ -46,7 +41,7 @@ if test $basename = 'left' -o $basename = 'right' -o $basename = 'sidebutton' -o
 	rm $generated_files
 
 else if test basename = '-h' -o basename = '--help'
-	echo 'fish pack.fish [left|right|sidebutton]'
+	echo 'fish pack.fish [keyboard|sidebutton]'
 else
 	echo 'wrong pcb name'
 end
