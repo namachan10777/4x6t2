@@ -7,13 +7,13 @@ set basename $argv[1]
 if test $basename = 'keyboard' -o $basename = 'sidebutton'
 
 	cd $basename
-	cp $boardname-B.Cu.gbl      $basename.gbl
-	cp $boardname-B.Mask.gbs    $basename.gbs
-	cp $boardname-B.SilkS.gbo   $basename.gbo
-	cp $boardname-F.Cu.gtl      $basename.gtl
-	cp $boardname-F.Mask.gts    $basename.gts
-	cp $boardname-F.SilkS.gto   $basename.gto
-	cp $boardname-Edge.Cuts.gm1 $basename.gm1
+	cp $basename-B.Cu.gbl      $basename.gbl
+	cp $basename-B.Mask.gbs    $basename.gbs
+	cp $basename-B.SilkS.gbo   $basename.gbo
+	cp $basename-F.Cu.gtl      $basename.gtl
+	cp $basename-F.Mask.gts    $basename.gts
+	cp $basename-F.SilkS.gto   $basename.gto
+	cp $basename-Edge.Cuts.gm1 $basename.gm1
 	if test $vender = 'fusionpcb'
 		set generated_files \
 			$basename.gbl \
@@ -24,7 +24,7 @@ if test $basename = 'keyboard' -o $basename = 'sidebutton'
 			$basename.gts \
 			$basename.gto
 	else if test $vender = 'elecrow'
-		cp $basename.drl $boardname.txt
+		cp $basename.drl $basename.txt
 		set generated_files \
 			$basename.gbl \
 			$basename.gbs \
