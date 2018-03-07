@@ -992,7 +992,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CC9D6)
-    (at 6.35 69.85 90)
+    (at 6.35 67.31 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AC36F)
@@ -1035,7 +1035,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CC9EF)
-    (at 6.35 88.9 90)
+    (at 6.35 86.36 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AD1EF)
@@ -1078,7 +1078,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA08)
-    (at 6.35 107.95 90)
+    (at 6.35 105.41 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AF7FF)
@@ -1121,7 +1121,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA21)
-    (at 6.35 127 90)
+    (at 6.35 124.46 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AF86F)
@@ -1164,7 +1164,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA3A)
-    (at -12.7 69.85 90)
+    (at -12.7 67.31 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AC37E)
@@ -1207,7 +1207,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA53)
-    (at -12.7 88.9 90)
+    (at -12.7 86.36 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AD1FE)
@@ -1250,7 +1250,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA6C)
-    (at -12.7 107.95 90)
+    (at -12.7 105.41 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AF80E)
@@ -1293,7 +1293,7 @@
   )
 
   (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A9CCA85)
-    (at -12.7 127 90)
+    (at -12.7 124.46 90)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5A9AF87E)
@@ -1786,7 +1786,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9CFB1F)
-    (at -12.065 74.295)
+    (at -12.065 71.755)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -1805,7 +1805,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9CFB31)
-    (at -12.065 112.395)
+    (at -12.065 109.855)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
@@ -1938,7 +1938,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA0051E)
-    (at -21.59 64.77)
+    (at -21.59 62.23)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AC378)
@@ -2002,7 +2002,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA005FE)
-    (at -21.59 83.82)
+    (at -21.59 81.28)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AD1F8)
@@ -2066,7 +2066,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA00623)
-    (at -21.59 102.87)
+    (at -21.59 100.33)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AF808)
@@ -2130,7 +2130,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA00648)
-    (at -21.59 121.92)
+    (at -21.59 119.38)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AF878)
@@ -2194,7 +2194,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA00867)
-    (at -2.54 64.77)
+    (at -2.54 62.23)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AC369)
@@ -2258,7 +2258,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA0088C)
-    (at -2.54 83.82)
+    (at -2.54 81.28)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AD1E9)
@@ -2322,7 +2322,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA008B1)
-    (at -2.54 102.87)
+    (at -2.54 100.33)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AF7F9)
@@ -2386,7 +2386,7 @@
   )
 
   (module 4x6t2:MX_ALPS_KH_u1.00 (layer F.Cu) (tedit 5A9FD729) (tstamp 5AA008D6)
-    (at -2.54 121.92)
+    (at -2.54 119.38)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (path /5A9AF869)
@@ -3605,10 +3605,10 @@
   (gr_line (start 97.79 156.21) (end 114.3 128.27) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 80.01 146.05) (end 97.79 156.21) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 60.96 146.05) (end 80.01 146.05) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 60.96 130.81) (end 60.96 146.05) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start -30.48 130.81) (end 60.96 130.81) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start -30.48 54.61) (end -30.48 130.81) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 26.67 43.18) (end -30.48 54.61) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 60.96 128.27) (end 60.96 146.05) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start -30.48 128.27) (end 60.96 128.27) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start -30.48 52.07) (end -30.48 128.27) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 26.67 43.18) (end -30.48 52.07) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 44.45 43.18) (end 26.67 43.18) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 114.3 48.26) (end 44.45 43.18) (layer Edge.Cuts) (width 0.1))
 
@@ -3618,9 +3618,9 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 114.3 48.26) (xy 44.45 43.18) (xy 26.67 43.18) (xy -30.48 54.61) (xy -30.48 130.81)
-        (xy 60.96 130.81) (xy 60.96 146.05) (xy 80.01 146.05) (xy 97.79 156.21) (xy 114.3 128.27)
-        (xy 114.3 128.27)
+        (xy 114.3 45.72) (xy 44.45 40.64) (xy 26.67 40.64) (xy -30.48 49.53) (xy -30.48 128.27)
+        (xy 60.96 128.27) (xy 60.96 143.51) (xy 80.01 143.51) (xy 97.79 153.67) (xy 114.3 125.73)
+        (xy 114.3 125.73)
       )
     )
   )
@@ -3630,8 +3630,8 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 114.3 128.27) (xy 114.3 48.26) (xy 44.45 43.18) (xy 26.67 43.18) (xy -30.48 54.61)
-        (xy -30.48 130.81) (xy 60.96 130.81) (xy 60.96 146.05) (xy 80.01 146.05) (xy 97.79 156.21)
+        (xy 114.3 128.27) (xy 114.3 48.26) (xy 44.45 43.18) (xy 26.67 43.18) (xy -30.48 52.07)
+        (xy -30.48 128.27) (xy 60.96 128.27) (xy 60.96 146.05) (xy 80.01 146.05) (xy 97.79 156.21)
       )
     )
   )
