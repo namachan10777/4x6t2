@@ -6,10 +6,10 @@ difference () {
     translate([10, 0, 3]) {
          cube([32-10*2, 9, 9-3*2]);
     }
-    translate([6, 6, 0]) {
+    translate([7, 6, 0]) {
         cylinder(r=1.75, h=9, $fs=0.1);
     }
-    translate([32-6, 6, 0]) {
+    translate([32-7, 6, 0]) {
         cylinder(r=1.75, h=9, $fs=0.1);
     }
     translate([3, 0, 4.5]) {
