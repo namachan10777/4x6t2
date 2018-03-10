@@ -1,8 +1,8 @@
 #!/usr/bin/fish
 # this script support fusionpcb and elecrow
-set vender fusionpcb
 
-set basename $argv[1]
+set vender $argv[1]
+set basename $argv[2]
 
 echo "vender:" $vender
 echo "board :" $basename
