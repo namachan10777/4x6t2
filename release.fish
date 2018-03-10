@@ -2,8 +2,6 @@
 
 function build
 	cd pcb
-	fish pack.fish $argv[1] keyboard
-	fish pack.fish $argv[1] sidebutton
 	cp keyboard/keyboard.zip ../
 	cp sidebutton/sidebutton.zip ../
 	cd ../
