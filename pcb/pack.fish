@@ -26,6 +26,7 @@ if test $basename = 'keyboard' -o $basename = 'sidebutton'
 			$basename.gtl \
 			$basename.gts \
 			$basename.gto
+		zip $basename $generated_files $basename.drl
 	else if test $vender = 'elecrow'
 		cp $basename.drl $basename.txt
 		set generated_files \
@@ -37,10 +38,10 @@ if test $basename = 'keyboard' -o $basename = 'sidebutton'
 			$basename.gts \
 			$basename.gto \
 			$basename.txt
+			zip $basename $generated_files
 	else
 		echo 'wrong vender specification'
 	end
-	zip $basename $generated_files
 	rm $generated_files
 
 else if test basename = '-h' -o basename = '--help'
