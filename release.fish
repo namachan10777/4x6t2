@@ -1,16 +1,18 @@
 #!/usr/bin/fish
 
 function build
-	cd pcb
-	cp keyboard/keyboard.zip ../
-	cp sidebutton/sidebutton.zip ../
-	cd ../
-
 	mkdir .build
 	mkdir .build/pcb
-	cp keyboard.zip .build/pcb
-	cp sidebutton.zip .build/pcb
 	mkdir .build/stl
+
+	cd pcb
+	fish pack.fish $argv[1] keyboard
+	fish pack.fish $argv[1] sidebutton
+	cd ../
+
+	mv pcb/keyboard/keyboard.zip .build/pcb
+	mv pcb/sidebutton/sidebutton.zip .build/pcb
+
 	cp things/*.stl .build/stl
 	cd .build
 	zip -r 4x6t2-$argv[1].zip pcb stl
@@ -19,5 +21,4 @@ function build
 	rm -r .build
 end
 
-build fusionpcb
-build elecrow
+build $argv[1]
