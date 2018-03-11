@@ -1,25 +1,31 @@
 difference () {
-    cube([32,9,9], center=false);
+    v_hole_r = 1.75;
+    h_hole_r = 1.5;
+    height = 4.6;
+    width  = 32;
+    depth  = 9;
+    v_hole_offset = 7;
+    h_hole_offset = 3;
+    $fs = 0.1;
+    
+    cube([width,depth,height], center=false);
 	translate([6, 0, 0]) {
-		cube([32-6*2, 3, 9]);
+		cube([width-6*2, 3, height]);
 	}
-    translate([10, 0, 3]) {
-         cube([32-10*2, 9, 9-3*2]);
+    translate([v_hole_offset, depth-3, 0]) {
+        cylinder(r=v_hole_r, h=height);
     }
-    translate([7, 6, 0]) {
-        cylinder(r=1.75, h=9, $fs=0.1);
+    translate([width-7, 6, 0]) {
+        cylinder(r=v_hole_r, h=height);
     }
-    translate([32-7, 6, 0]) {
-        cylinder(r=1.75, h=9, $fs=0.1);
-    }
-    translate([3, 0, 4.5]) {
+    translate([h_hole_offset, 0, height/2]) {
         rotate([-90, 0, 0,]) {
-            cylinder(r=1.75, h=9, $fs=0.1);
+            cylinder(r=h_hole_r, h=depth);
         }
     }
-    translate([32-3, 0, 4.5]) {
+    translate([width-h_hole_offset, 0, height/2]) {
         rotate([-90, 0, 0,]) {
-            cylinder(r=1.75, h=9, $fs=0.1);
+            cylinder(r=h_hole_r, h=depth);
         }
     }
 }
