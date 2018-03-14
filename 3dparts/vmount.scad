@@ -1,7 +1,7 @@
 difference () {
     v_hole_r = 1.75;
     h_hole_r = 1.25;
-    height = 2.2+3+0.5-1.6;
+    height = 2.2+3+0.5-1.5;
     width  = 32;
     depth  = 9;
     v_hole_offset = 7;
