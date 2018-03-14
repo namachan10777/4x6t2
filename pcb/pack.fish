@@ -39,6 +39,20 @@ if test $basename = 'keyboard' -o $basename = 'sidebutton'
 			$basename.gto \
 			$basename.txt
 			zip $basename $generated_files
+	else if test $vender = 'allpcb'
+		cp $basename.drl $basename.txt
+		cp $basename.gm1 $basename.gko
+		set generated_files \
+			$basename.gbl \
+			$basename.gbs \
+			$basename.gbo \
+			$basename.gm1 \
+			$basename.gtl \
+			$basename.gts \
+			$basename.gto \
+			$basename.gko \
+			$basename.txt
+			zip $basename $generated_files
 	else
 		echo 'wrong vender specification'
 	end
