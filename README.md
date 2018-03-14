@@ -5,6 +5,10 @@ A splited keyboard.
 # License
 MIT License 
 Copyright (c) 2018 Nakano Masaki
+## Exception
+./pcb/lib/4x6t2.pretty/D_SOD-123.kicad_mod
+original author is KiCAD.
+this is distributed under CC-BY-SA 4.0
 
 # Third party
 ## helix
@@ -31,3 +35,8 @@ Copyright (c) 2018 Nakano Masaki
 >LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 >OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 >SOFTWARE.
+
+## KiCAD Library
+### LICENSE
+CC-BY-SA 4.0
+Copyright (c) KiCAD
