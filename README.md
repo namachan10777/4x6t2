@@ -1,19 +1,25 @@
 # 4x6t2
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![4x6t2](https://imgur.com/a/U5OqkeO)
+
 A splited keyboard.
 # License
 MIT License 
 Copyright (c) 2018 Nakano Masaki
 ## Exception
-./pcb/lib/4x6t2.pretty/D_SOD-123.kicad_mod
-original author is KiCAD.
-this is distributed under CC-BY-SA 4.0
+ * ./pcb/lib/4x6t2.pretty/MX_ALPS_KH_u1.00.kicad_mod
+ * ./pcb/lib/4x6t2.pretty/D_SOD-123.kicad_mod
+ * ./pcb/lib/4x6t2.pretty/LED_D3.0mm.kicad_mod
+ * ./pcb/lib/4x6t2.pretty/R_Axial.kicad_mod
+ * ./pcb/lib/4x6t2.pretty/SW_Tactile_SPST_Angled.kicad_mod
+These footprint's original author is KiCAD.
+These are distributed under CC-BY-SA 4.0.
 
 # Third party
 ## helix
 ### point of use
- * Key footprint (./pcb/lib/4x6t2.pretty/MX_ALPS_KH_u1.00.kicad_mod)
+ * Key footprint (./pcb/lib/4x6t2.pretty/MX_ALPS_KH_u1.00.kicad_mod) (modified)
  * Audio Jack footprint (./pcb/lib/4x6t2.pretty/MJ-4PP-9_rev2.kicad_mod)
 ### LICENSE
 >Copyright (c) 2018 MakotoKurauchi
